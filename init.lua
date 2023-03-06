@@ -73,7 +73,7 @@ local function afficher_interface_achat(player)
     local name = player:get_player_name()
 
     local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "label[0,0;Buy items : "..minetest.colorize("#ff8c00", "              1 = 1 gold ingot").."]"..
 -----------------------Stone---------------------------------
         "item_image_button[0,1;1,1;default:stone 25;stone;"..
@@ -149,7 +149,7 @@ local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
         "button[0,4.5;2,1;retour;Return]"..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
         "button_exit[2,4.5;2,1;exit;Close]"
@@ -162,7 +162,7 @@ local function afficher_interface_infof(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -176,7 +176,7 @@ local function afficher_interface_infofar(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -191,7 +191,7 @@ local function afficher_interface_infofna(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -205,7 +205,7 @@ local function afficher_interface_info2(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -219,7 +219,7 @@ local function afficher_interface_info7(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -233,7 +233,7 @@ local function afficher_interface_info6(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -247,7 +247,7 @@ local function afficher_interface_info5(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -261,7 +261,7 @@ local function afficher_interface_info4(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -275,7 +275,7 @@ local function afficher_interface_info3(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour2;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -289,7 +289,7 @@ local function afficher_interface_infoa(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Information about the Shop").."]"..
     "label[0,0.7;Welcome to the Shop!Here's how it works:\nFirst of all there are items in boxes, there is also a number\nin the middle of this box which indicates the cost in gold ingot\n.I also assume that you must have seen that there was\nanother number at the bottom right? Well it indicates\nthe quantity.\nI hope you like this /shop :D\nSigned Atlante]"..
@@ -303,7 +303,7 @@ local function afficher_interface_menu(player)
     local name = player:get_player_name()
 
     local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"..
         "label[0,0; "..minetest.colorize("#ff8c00", "Menu of selection :").."]"..
         "button[4,4.5;2,1;info6;Info]"..
@@ -344,7 +344,7 @@ local function afficher_interface_diver(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "label[0,0;  "..minetest.colorize("#ff8c00", "Section Diver:").."]"..
         "button_exit[2,4.5;2,1;exit;Close]"..
         "label[0,0;"..minetest.colorize("#ff8c00", "                                               Buy items : ").."]"..
@@ -360,35 +360,39 @@ minetest.register_on_player_receive_fields(function(player, formname, fields)
     end
     
     local articles = {
-        sword_diamond = {"default:sword_diamond", 5},
-        pickaxe_diamond = {"default:pick_diamond", 5},
+        sword_diamond = {"default:sword_diamond", 10},
+        pickaxe_diamond = {"default:pick_diamond", 15},
         shovel_diamond = {"default:shovel_diamond", 5},
-        shovel_diamond = {"default:axe_diamond", 5},
+        shovel_diamond = {"default:axe_diamond", 15},
 
-        sword_mese = {"default:sword_mese", 5},
-        pickaxe_mese = {"default:pick_mese", 5},
-        shovel_mese = {"default:shovel_mese", 5},
-        shovel_mese = {"default:axe_mese", 5},
+        sword_mese = {"default:sword_mese", 4},
+        pickaxe_mese = {"default:pick_mese", 6},
+        shovel_mese = {"default:shovel_mese", 2},
+        shovel_mese = {"default:axe_mese", 6},
 
-        sword_bronze = {"default:sword_bronze", 5},
-        pickaxe_bronze = {"default:pick_bronze", 5},
-        shovel_bronze = {"default:shovel_bronze", 5},
-        shovel_bronze = {"default:axe_bronze", 5},
+        sword_bronze = {"default:sword_bronze", 1},
+        pickaxe_bronze = {"default:pick_bronze", 2},
+        shovel_bronze = {"default:shovel_bronze", 1},
+        shovel_bronze = {"default:axe_bronze", 2},
 
-        sword_steel = {"default:sword_steel", 5},
-        pickaxe_steel = {"default:pick_steel", 5},
-        shovel_steel = {"default:shovel_steel", 5},
-        shovel_steel = {"default:axe_steel", 5},
+        sword_steel = {"default:sword_steel", 1},
+        pickaxe_steel = {"default:pick_steel", 2},
+        shovel_steel = {"default:shovel_steel", 1},
+        shovel_steel = {"default:axe_steel", 2},
 
-        sword_stone = {"default:sword_stone", 5},
-        pickaxe_stone = {"default:pick_stone", 5},
-        shovel_stone = {"default:shovel_stone", 5},
-        shovel_stone = {"default:axe_stone", 5},
+        sword_stone = {"default:sword_stone", 0},
+        pickaxe_stone = {"default:pick_stone", 0},
+        shovel_stone = {"default:shovel_stone", 0},
+        shovel_stone = {"default:axe_stone", 0},
 
         sword_wood = {"default:sword_wood ", 0},
-        pickaxe_wood = {"default:pick_wood", 0},
+        pick_wood = {"default:pick_wood", 0},
         shovel_wood= {"default:shovel_wood", 0},
-        shovel_wood = {"default:axe_wood", 0},
+        axe_wood = {"default:axe_wood", 0},
+
+        hoe_wood = {"farming:hoe_wood ", 0},
+        hoe_stone = {"farming:hoe_stone", 0},
+        hoe_steel= {"farming:hoe_steel", 1},
     }
     
     for field, article in pairs(articles) do
@@ -410,50 +414,57 @@ local name = player:get_player_name()
 local formspec = "size[8,5.5]" ..
         "label[0,0;  "..minetest.colorize("#ff8c00", "Section Tools:").."]"..
         "item_image_button[0,1;1,1;default:sword_diamond;sword_diamond;"..
-            "5]" ..
+            "10]" ..
         "item_image_button[0,2;1,1;default:pick_diamond;pick_diamond;"..
-            "5]" ..
+            "15]" ..
         "item_image_button[0,3;1,1;default:shovel_diamond;shovel_diamond;"..
             "5]" ..
         "item_image_button[1,1;1,1;default:axe_diamond;axe_diamond;"..
-            "5]" ..
+            "15]" ..
 
         "item_image_button[1,2;1,1;default:sword_mese;sword_mese;"..
-            "5]" ..
+            "4]" ..
         "item_image_button[1,3;1,1;default:pick_mese;pick_mese;"..
-            "5]" ..
+            "6]" ..
         "item_image_button[2,1;1,1;default:shovel_mese;shovel_mese;"..
-            "5]" ..
+            "2]" ..
         "item_image_button[2,2;1,1;default:axe_mese;axe_mese;"..
-            "5]" ..
+            "4]" ..
 
         "item_image_button[2,3;1,1;default:sword_bronze;sword_bronze;"..
-            "5]" ..
+            "1]" ..
         "item_image_button[3,1;1,1;default:pick_bronze;pick_bronze;"..
-            "5]" ..
+            "2]" ..
         "item_image_button[3,2;1,1;default:shovel_bronze;shovel_bronze;"..
-            "5]" ..
+            "1]" ..
         "item_image_button[3,3;1,1;default:axe_bronze;axe_bronze;"..
-            "5]" ..
+            "2]" ..
 
-        "item_image_button[4.1;1,1;default:sword_steel;sword_steel;"..
-            "5]" ..
+        "item_image_button[4,1;1,1;default:sword_steel;sword_steel;"..
+            "1]" ..
         "item_image_button[4,2;1,1;default:pick_steel;pick_steel;"..
-            "5]" ..
+            "2]" ..
         "item_image_button[4,3;1,1;default:shovel_steel;shovel_steel;"..
-            "5]" ..
+            "1]" ..
         "item_image_button[5,1;1,1;default:axe_steel;axe_steel;"..
-            "5]" ..
+            "2]" ..
 
         "item_image_button[5,2;1,1;default:sword_wood;sword_wood;"..
-            "5]" ..
+            "0]" ..
         "item_image_button[5,3;1,1;default:pick_wood;pick_wood;"..
-            "5]" ..
+            "0]" ..
         "item_image_button[6,1;1,1;default:shovel_wood;shovel_wood;"..
-            "5]" ..
+            "0]" ..
         "item_image_button[6,2;1,1;default:axe_wood;axe_wood;"..
-            "5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+            "0]" ..
+
+        "item_image_button[6,3;1,1;farming:hoe_wood;hoe_wood;"..
+            "0]" ..
+        "item_image_button[7,1;1,1;farming:hoe_stone;hoe_stone;"..
+            "0]" ..
+        "item_image_button[7,2;1,1;farming:hoe_steel;hoe_steel;"..
+            "1]" ..
+
         "button_exit[2,4.5;2,1;exit;Close]"..
         "label[0,0;"..minetest.colorize("#ff8c00", "                                               Buy items : ").."]"..
       "button[4,4.5;2,1;info3;Info]"..
@@ -573,14 +584,54 @@ local formspec = "size[8,5.5]" ..
             "3]" ..
         "item_image_button[7,3;1,1;default:coal_lump 99;coal_lump20;"..
             "6]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button_exit[2,4.5;2,1;exit;Close]"..
         "label[0,0;"..minetest.colorize("#ff8c00", "                                               Buy items : ").."]"..
       "button[4,4.5;2,1;info5;Info]"..
         "button[0,4.5;2,1;retour;Return]"
     minetest.show_formspec(name, "interface_minerals", formspec)
 end
+-- Fonction pour gérer les clics sur les boutons d'image
+minetest.register_on_player_receive_fields(function(player, formname, fields)
+    if formname ~= "interface_blocks" then
+        return
+    end
+    
+    local articles = {
+        pine_tree = {"default:pine_tree 99", 1},
+        aspen_tree = {"default:aspen_tree 99", 1},
+        acacia_tree = {"default:acacia_tree 99", 1},
 
+        tree = {"default:tree 99", 1},
+        jungletree = {"default:jungletree 99", 1},
+        brick = {"default:brick 99", 1},
+
+        bookshelf = {"default:bookshelf 99", 1},
+        coral_skeleton = {"default:coral_skeleton 99", 1},
+        desert_stone = {"default:desert_stone 99", 1},
+
+        cobble = {"default:cobble 99", 1},
+        silver_sandstone = {"default:silver_sandstone 99", 1},
+        sandstone = {"default:sandstone 99", 1},
+
+        woolwhite = {"wool:white 99", 1},
+        obsidian = {"default:obsidian 99", 1},
+
+        leaves = {"default:leaves 99", 1},
+
+    }
+    
+    for field, article in pairs(articles) do
+        if fields[field] then
+            acheter_article(player, unpack(article))
+            return
+        end
+    end
+    
+    if fields.close then
+        minetest.close_formspec(player:get_player_name(), "interface_blocks")
+    end
+end)
 -- Fonction pour afficher l'interface du blocks
 local function afficher_interface_blocks(player)
 local name = player:get_player_name()
@@ -588,7 +639,42 @@ local name = player:get_player_name()
 local formspec = "size[8,5.5]" ..
         "label[0,0;  "..minetest.colorize("#ff8c00", "Section Blocks:").."]"..
         "button_exit[2,4.5;2,1;exit;Close]"..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+       "item_image_button[0,1;1,1;default:pine_tree 99;pine_tree;"..
+            "1]" ..
+        "item_image_button[0,2;1,1;default:aspen_tree 99;aspen_tree;"..
+            "5]" ..
+        "item_image_button[0,3;1,1;default:acacia_tree 98;acacia_tree;"..
+            "10]" ..
+
+        "item_image_button[1,1;1,1;default:tree 99;tree;"..
+            "1]" ..
+        "item_image_button[1,2;1,1;default:jungletree 99;jungletree;"..
+            "10]" ..
+        "item_image_button[1,3;1,1;default:brick 99;brick;"..
+            "25]" ..
+
+        "item_image_button[2,1;1,1;default:bookshelf 99;bookshelf;"..
+            "1]" ..
+        "item_image_button[2,2;1,1;default:coral_skeleton 99;coral_skeleton;"..
+            "3]" ..
+        "item_image_button[2,3;1,1;default:desert_stone 99;desert_stone;"..
+            "6]" ..
+
+        "item_image_button[3,1;1,1;default:cobble 99;cobble;"..
+            "2]" ..
+        "item_image_button[3,2;1,1;default:silver_sandstone 99;silver_sandstone;"..
+            "10]" ..
+
+
+        "item_image_button[4,1;1,1;default:sandstone 99;sandstone;"..
+            "1]" ..
+        "item_image_button[4,2;1,1;wool:white 25;woolwhite;"..
+            "3]" ..
+        "item_image_button[4,3;1,1;default:obsidian 99;obsidian;"..
+            "6]" ..
+
+        "item_image_button[5,1;1,1;default:leaves 99;leaves;"..
+            "2]" ..
         "label[0,0;"..minetest.colorize("#ff8c00", "                                               Buy items : ").."]"..
       "button[4,4.5;2,1;info4;Info]"..
         "button[0,4.5;2,1;retour;Return]"
@@ -600,7 +686,7 @@ local function afficher_interface_armor(player)
 local name = player:get_player_name()
 
 local formspec = "size[8,5.5]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "label[0,0;  "..minetest.colorize("#ff8c00", "Section Armor:").."]"..
         "button_exit[2,4.5;2,1;exit;Close]"..
         "label[0,0;"..minetest.colorize("#ff8c00", "                                               Buy items : ").."]"..
@@ -691,7 +777,7 @@ local formspec = "size[8,5.5]" ..
         "item_image_button[4,3;1,1;default:blueberries 99;blueberries20;"..
             "30]" ..
 
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button_exit[2,4.5;2,1;exit;Close]"..
         "label[0,0;"..minetest.colorize("#ff8c00", "                                               Buy items : ").."]"..
       "button[4,4.5;2,1;infof;Info]"..
@@ -813,7 +899,7 @@ local formspec = "size[8,5.5]" ..
             "9]" ..
         "item_image_button[7,3;1,1;default:papyrus 60;paper20;"..
             "18]" ..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[6,0;1,1;nextsfar;->]"..
         "button[5,0;1,1;precedentfar;<-]"..
         "button_exit[2,4.5;2,1;exit;Close]"..
@@ -833,7 +919,7 @@ local formspec = "size[8,5.5]" ..
         "button_exit[2,4.5;2,1;exit;Close]"..
         "label[0,0;"..minetest.colorize("#ff8c00", "                                               Buy items : ").."]"..
       "button[4,4.5;2,1;infofna;Info]"..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;retour;Return]"
     minetest.show_formspec(name, "interface_natural", formspec)
 end
@@ -877,7 +963,7 @@ local formspec = "size[8,5.5]" ..
         "button[6,0;1,1;nextsfar;->]"..
         "button[5,0;1,1;precedentfar;<-]"..
         "button[0,4.5;2,1;info2;Info]"..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
     "label[7.4,5.1;"..minetest.colorize("#ff8c00", "2/2").."]"..
         "button_exit[2,4.5;2,1;exit;Close]"
     minetest.show_formspec(name, "interface_farming_2", formspec)
@@ -892,7 +978,7 @@ local formspec = "size[8,5.5]" ..
         "button[4,4.5;2,1;menu;Menu]"..
         "button[6,0;1,1;nexts;->]"..
         "button[5,0;1,1;precedent;<-]"..
-           "background[0,0;8,5.81;default_stone.png]".. -- image de fond
+
         "button[0,4.5;2,1;info2;Info]"..
     "label[0,0;"..minetest.colorize("#ff8c00", "Future functionality").."]"..
     "label[7.4,5.1;"..minetest.colorize("#ff8c00", "2/2").."]"..
